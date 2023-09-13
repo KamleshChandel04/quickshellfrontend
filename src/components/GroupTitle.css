@@ -1,0 +1,30 @@
+.group-title {
+  margin: 8px 8px 8px 8px;
+  display: flex;
+  font-size: medium;
+  justify-content: space-between; 
+} 
+.progress-count {
+  display: flex;
+  align-items: center; 
+  /* This will align the progress and number vertically centered to each other */
+  gap: 25px; /* Gap between progress and number */
+}
+
+.icon-buttons{
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  padding-left: 100px; 
+  color : grey;
+  font-size: large;
+}
+/* .title{
+  white-space: nowrap;
+} */
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;    /* In case the content inside the title is too long */
+  text-overflow: ellipsis; /* If the content is too long, it'll end with '...' */
+}

@@ -1,0 +1,32 @@
+/* Your existing CSS styles for ticket cards go here */
+
+.board {
+  /* background-color: #f4f5f8; */
+  display: flex;
+  flex-direction: row; 
+  width: 100vw;/* Display status groups in a horizontal row */
+  /* overflow-x: auto; Enable horizontal scrolling if needed */
+  /* height: 100%; */
+  /* white-space: nowrap; */
+}
+
+.status-bar {
+  display: flex;
+  flex-direction: row; /* Display status groups in a horizontal row */
+  /* overflow-x: auto; Enable horizontal scrolling if needed */
+}
+
+.status-group {
+  display: flex;
+  flex-direction: column; /* Display tickets vertically within each status group */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  /* margin-right: 20px; Adjust the margin between status groups */
+  margin-left: 20px;
+}
+
+.ticket-column {
+  display: flex;
+  flex-direction: column; /* Display tickets vertically */
+}
